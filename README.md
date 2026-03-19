@@ -118,10 +118,10 @@ With this script, you can easily use online configuration converters to subscrib
 
 ## 
 ## 🔧V. Environment Variables [Video Tutorial](https://www.youtube.com/watch?v=i-XnnP-MptY&t=468s)
-| 变量名 | 示例 | 必填 | 备注 | YT |
+| Environment Variable | Example | Required | Remarks | YT |
 |-----|-----|-----|-----|-----|
-| ID   | ec872d8f-72b0-4a04-b612-0327d85e18ed（默认）|✅| 支持Cloudflare的KV存储桶设置 [在线获取UUID](https://1024tools.com/uuid) VLESS、Trojan节点共用 | |
-| D_URL | https://cloudflare-dns.com/dns-query |❌| DNS解析获取作用，小白勿用                                                           |  |
+| ID   | ec872d8f-72b0-4a04-b612-0327d85e18ed（Default）|✅| 支持Cloudflare的KV存储桶设置 [在线获取UUID](https://1024tools.com/uuid) VLESS、Shared Trojan Nodes | |
+| D_URL | https://cloudflare-dns.com/dns-query |❌| DNS Parsed Result & Benefits，Advanced Users Only |  |
 
 ## 
 ## ⚙️ Snippets Deployment Guide [Video Tutorial](https://www.youtube.com/watch?v=i-XnnP-MptY&t=165s)
