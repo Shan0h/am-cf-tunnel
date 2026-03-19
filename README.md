@@ -4,38 +4,38 @@ This is a script based on the Cloudflare Workers and Pages platforms. It is a mo
 With this script, you can easily use online configuration converters to subscribe to VLESS and Trojan nodes within tools like Clash, Sing-box, and Quantumult X. By leveraging Cloudflare Workers and Pages, this script enables one-click node subscriptions via a built-in sub-converter.[最新视频教程](https://youtu.be/e1Lvo5F37vk)、[🎬 YouTube](https://youtube.com/@am_clubs?sub_confirmation=1)、 [💬 Telegram](https://t.me/am_clubs)、[📂 GitHub](https://github.com/amclubs)、[🌐 Blog](https://amclubss.com)
 
 ### Recommended Video Tutorials
-- [Error1101和522解决教程](https://youtu.be/4fcyJjstFdg) | [优选IP和反代IP教程](https://youtu.be/pKrlfRRB0gU) | [常见-1问题教程](https://youtu.be/kYQxV1G-ePw) | [免费域名教程](https://www.youtube.com/playlist?list=PLGVQi7TjHKXZGODTvB8DEervrmHANQ1AR) | [NAT64版教程](https://youtu.be/nx80sGpVoBM)
-- [VLESS免费节点部署教程](https://youtu.be/dPH63nITA0M) | [Trojan免费节点部署教程](https://youtu.be/uh27CVVi6HA) | [从入门到精通免费部署教程](https://youtu.be/ag12Rpc9KP4)| [高级固定节点区域教程](https://youtu.be/wgeM9XvZ5RA)
-- [GitHub私有储优选IP文教程](https://youtu.be/vX3U3FuuTT8) | [CF免费KV存储IP文件教程](https://youtu.be/dzxezRV1v-o)  | [获取CF自家域名无限节点](https://youtu.be/novrPiMsK70) | [聚合节点订阅教程](https://youtu.be/YBO2hf96150)
-- [🔥Cloudflare NAT (amclubs-cfnat)自动优先IP(Win桌面版)](https://youtu.be/-a6NJ6vPSu4) | [Linux&openwrt软路由版](https://youtu.be/ZC6fxZwPaiM) | [Mac版](https://youtu.be/gf6gncc2yEE) | [安卓(Android)手机版](https://youtu.be/7yamDM38MFw) | [docker版](https://youtu.be/gRnNwoeUQKU)
+- [Fixing Error 1101 and 522: Troubleshooting Guide](https://youtu.be/4fcyJjstFdg) | [Cloudflare Preferred IP & Reverse Proxy IP Tutorial](https://youtu.be/pKrlfRRB0gU) | [Common -1 Error: Troubleshooting Guide](https://youtu.be/kYQxV1G-ePw) | [Free Domain Tutorial](https://www.youtube.com/playlist?list=PLGVQi7TjHKXZGODTvB8DEervrmHANQ1AR) | [NAT64 Version Tutorial](https://youtu.be/nx80sGpVoBM)
+- [VLESS Free Node Deployment Tutorial](https://youtu.be/dPH63nITA0M) | [Trojan Free Node Deployment Tutorial](https://youtu.be/uh27CVVi6HA) | [Free Deployment: From Beginner to Pro](https://youtu.be/ag12Rpc9KP4)| [Advanced Guide: Pinning Nodes to Specific Regions](https://youtu.be/wgeM9XvZ5RA)
+- [Tutorial: Using Preferred IP Lists from Private GitHub Repos](https://youtu.be/vX3U3FuuTT8) | [Cloudflare KV: Storing Preferred IP Lists (Free Guide)](https://youtu.be/dzxezRV1v-o)  | [Tutorial: Generating Unlimited Nodes via Cloudflare Domains](https://youtu.be/novrPiMsK70) | [Tutorial: Aggregating Node Subscriptions](https://youtu.be/YBO2hf96150)
+- [🔥Cloudflare NAT (amclubs-cfnat): Auto-Preferred IP (Windows Desktop)](https://youtu.be/-a6NJ6vPSu4) | [Linux & OpenWrt (Router Version)](https://youtu.be/ZC6fxZwPaiM) | [Mac Version](https://youtu.be/gf6gncc2yEE) | [Android Version](https://youtu.be/7yamDM38MFw) | [Docker Version](https://youtu.be/gRnNwoeUQKU)
 - 🔥 Official Subscription Converter: https://sub.amclubss.com
 
-## 📝一、前期准备资料
+## 📝一、Prerequisites
 <details>
-<summary>点击展开/收起</summary>
+<summary>Click to Expand / Collapse</summary>
 
-### 1、注册免费**cloudflare**帐号(邮箱就可以免费注册)
-- 注册地址：https://cloudflare.com <a href="https://youtu.be/ITeuSbHVQ2E">[点击观看视频教程]</a>
+### 1、Sign up for a free Cloudflare account (Only an email address is required)
+- Registration Link：https://cloudflare.com <a href="https://youtu.be/ITeuSbHVQ2E">[Click to Watch Video Tutorial]</a>
 
-### 2、注册**免费域名** [点击观看所有免费域名视频教程](https://www.youtube.com/playlist?list=PLGVQi7TjHKXZGODTvB8DEervrmHANQ1AR)
+### 2、Registration**Free Domain** [Click to Watch All Free Domain Video Tutorials](https://www.youtube.com/playlist?list=PLGVQi7TjHKXZGODTvB8DEervrmHANQ1AR)
 
-### 3、**订阅工具** [点击观看使用视频教程](https://youtu.be/xGOL57cmvaw)
-👉 [点击加入TG群 数字套利｜交流群](https://t.me/AM_CLUBS)发送关键字 **工具** 获取下载
+### 3、**Subscription Clients** [Click to Watch Usage Video Tutorial](https://youtu.be/xGOL57cmvaw)
+👉 [Click to Join our Telegram Group | Discussion"](https://t.me/AM_CLUBS)Send Keyword **Tools** Get Download
 
-### 4、Cloudflare标准 **端口** 知识  [点击观看优选IP视频教程](https://youtu.be/pKrlfRRB0gU)
-- 80系端口(HTTP)：80，8080，8880，2052，2082，2086，2095
-- 443系端口(HTTPS)：443，2053，2083，2087，2096，8443
-- [IP落地测试工具地址](https://ip.sb/) 
+### 4、Cloudflare Standard **Ports** Essentials  [Click to Watch Preferred IP Video Tutorial](https://youtu.be/pKrlfRRB0gU)
+- 80 Ports (HTTP)：80，8080，8880，2052，2082，2086，2095
+- 443 Ports (HTTPS)：443，2053，2083，2087，2096，8443
+- [IP Exit Node Testing Tools" or "Outbound IP Checker Links](https://ip.sb/) 
 
 </details>
 
 ## 
-## ⚙️ 二、Workers 部署方法 [视频教程](https://www.youtube.com/watch?v=i-XnnP-MptY&t=165s)
+## ⚙️ II. Workers Deployment Method [Video Tutorial](https://www.youtube.com/watch?v=i-XnnP-MptY&t=165s)
 <details>
-<summary>点击展开/收起</summary>
+<summary>Click to Expand/Collapse</summary>
 
-1. 部署 Cloudflare Worker：
-   - 在 CloudFlare主页的左边菜单的 `计算(Workers)` 选项卡 -> 点击 `Workers 和 Pages` -> 右上方点击 -> `创建应用程序` -> 选择 `Workers`里的 `从 Hello World! 开始` 点击 `开始使用` -> 填入 `Worker 名称`(此名称自己命名) 后 -> 右下方点击 `部署` 后-> 右上方点击 `断续处理项目`。(此步已有可忽略)。
+1. Deploy Cloudflare Worker：
+   - In the left-hand menu of the Cloudflare Dashboard `计算(Workers)` 选项卡 -> 点击 `Workers 和 Pages` -> 右上方点击 -> `创建应用程序` -> 选择 `Workers`里的 `从 Hello World! 开始` 点击 `开始使用` -> 填入 `Worker 名称`(此名称自己命名) 后 -> 右下方点击 `部署` 后-> 右上方点击 `断续处理项目`。(此步已有可忽略)。
 2. 给UUID设置KV存储桶(推荐设置)： 
    - 在 CloudFlare主页的左边菜单的 `存储和数据库` 选项卡 -> 展开选择点击 `Workers KV` -> 右方点击 -> `创建实例(Create Instance)` -> 填入 `命名空间名称`(此名称自己命名) 后 -> 点击 `创建`。(此步已有可忽略)
    - 在 workers控制台的 `绑定` 选项卡 -> 右方点击 -> `添加绑定` -> 选择 `KV 命名空间` 右下方点击 -> `添加绑定` -> 变量名称 填入 `amclubs`(此名称固定不能变) -> KV 命名空间 选择 在上面创建的 `命名空间名称`后 -> 右下方点击 `添加绑定`。
@@ -187,32 +187,32 @@ With this script, you can easily use online configuration converters to subscrib
 
 </details>
 
-#### `③` Cloudfare Pages 上传 部署方法 **(最佳推荐!!!)** [视频教程](https://www.youtube.com/watch?v=D4XqeRNm2JI&t=982s)
+#### III. Cloudflare Pages Upload Deployment **(Highly Recommended!!!)** [Video Tutorial](https://www.youtube.com/watch?v=D4XqeRNm2JI&t=982s)
 <details>
-<summary>点击展开/收起</summary>
+<summary>Click to Expand / Collapse</summary>
 
-1. 部署 Cloudflare Pages：
-   - 下载 [_worker.src.js.zip](https://raw.githubusercontent.com/amclubs/am-cf-tunnel-sub/main/_worker.src.js.zip) 文件，并点上 Star !!!
-   - 在 CloudFlare主页的左边菜单的 `计算(Workers)` 选项卡 -> 点击 `Workers 和 Pages` -> 右上方点击 -> `创建应用程序` -> 选择 `Pages`里的 `拖放文件` 点击 `开始使用` -> 填入 `项目名称`(此名称自己命名)后 -> 右边点击 `创建项目` 后 -> 下方 `上传您的项目资产` 点击 `拖放或从计算机中选择` 后  -> 点击 `上传压缩文件` 然后上传你下载好的 [_worker.src.js.zip](https://raw.githubusercontent.com/amclubs/am-cf-tunnel-sub/main/_worker.src.js.zip) 文件后点击 `部署站点`。
-2. 设置节点UUID和HOST变量： 
+1. Deploy Cloudflare Pages：
+   - Download [_worker.src.js.zip](https://raw.githubusercontent.com/amclubs/am-cf-tunnel-sub/main/_worker.src.js.zip) file, and give it a Star !!!
+   - On CloudFlare主页的左边菜单的 `计算(Workers)` 选项卡 -> 点击 `Workers 和 Pages` -> 右上方点击 -> `创建应用程序` -> 选择 `Pages`里的 `拖放文件` 点击 `开始使用` -> 填入 `项目名称`(此名称自己命名)后 -> 右边点击 `创建项目` 后 -> 下方 `上传您的项目资产` 点击 `拖放或从计算机中选择` 后  -> 点击 `上传压缩文件` 然后上传你下载好的 [_worker.src.js.zip](https://raw.githubusercontent.com/amclubs/am-cf-tunnel-sub/main/_worker.src.js.zip) 文件后点击 `部署站点`。
+2. Configure Node UUID and HOST Variables： 
    - 在 Pages控制台的 `设置` 选项卡 -> 点击 `设置` -> 左方点击 `变量和机密` -> 右方点击  `添加` -> 变量名称 填入 `UUID`(此名称固定不能变) ，值填入CF部署节点ID -> 再点击添加变量 填入 `HOST`(此名称固定不能变)，值填入CF部署的自定义域名 后 -> 右下方点击 `保存`。
    - 在 `设置` 选项卡，点击 `部署` -> 在所有部署 找到最新一条部署记录 ，在右边点击 3个点 `...` 选择 `重试部署` 即可。
-3. 给 Pages绑定 CNAME自定义域：[无域名绑定Cloudflare部署视频教程]->[免费域名教程1](https://youtu.be/wHJ6TJiCF0s) [免费域名教程2](https://youtu.be/yEF1YoLVmig)  [免费域名教程3](https://www.youtube.com/watch?v=XS0EgqckUKo&t=320s)
+3. Bind a CNAME Custom Domain to Pages：[无域名绑定Cloudflare部署视频教程]->[免费域名教程1](https://youtu.be/wHJ6TJiCF0s) [免费域名教程2](https://youtu.be/yEF1YoLVmig)  [免费域名教程3](https://www.youtube.com/watch?v=XS0EgqckUKo&t=320s)
    - 在 Pages控制台的 `自定义域`选项卡，下方点击 `设置自定义域`。
    - 填入你的自定义次级域名，注意不要使用你的根域名，例如：
      您分配到的域名是 `amclubss.com`，则添加自定义域填入 `sub.amclubss.com`即可，点击 `激活域`即可。    
-4. 验证部署是否成功：
+4. Verify Deployment：
    - 访问 `https://[YOUR-WORKERS-URL]` 即可进入登录页面,登录成功就是完成部署(默认登录密码(UUID)是：ec872d8f-72b0-4a04-b612-0327d85e18ed)。
    - 例如 `https://sub.amclubss.com` 然后进入登录页面 -> 输入密码 `ec872d8f-72b0-4a04-b612-0327d85e18ed` -> 点击登录 -> 成功登录。 
-5. 修改默认登录密码(ID)变量，(强烈要求修改，防止别人用你节点)： 
+5. Change Default Password (ID)变量，(强烈要求修改，防止别人用你节点)： 
    - 在 Pages控制台的 `设置` 选项卡 -> 点击 `设置` -> 左方点击 `变量和机密` -> 右方点击  `添加` -> 变量名称 填入 `ID`(此名称固定不能变) ，自己设置复杂的密码 -> 右下方点击 `保存`。
    - 在 `设置` 选项卡，点击 `部署` -> 在所有部署 找到最新一条部署记录 ，在右边点击 3个点 `...` 选择 `重试部署` 即可。
    - 保存成功后，原登录密码(ID)已作废不能访问，用新登录密码(ID)登录访问即可。
-6. 增加优选IP(ips)变量，**(要在线优选功能必须配置)**： 
+6. Add Preferred IP(ips)Variable，**(Required for the online IP optimization feature.)**： 
    - 在 CloudFlare主页的左边菜单的 `存储和数据库` 选项卡 -> 展开选择点击 `Workers KV` -> 右方点击 -> `创建实例(Create Instance)` -> 填入 `命名空间名称`(此名称自己命名) 后 -> 点击 `创建`。(此步已有可忽略)
    - 在 Pages控制台的 `设置` 选项卡 -> 点击 `绑定` -> 右方点击 -> `添加` -> 选择 `KV 命名空间` -> 变量名称 填入 `ips`(此名称固定不能变) -> KV 命名空间 选择 在上面创建的 `命名空间名称`后 -> 右下方点击 `保存`。
-   - 在 `设置` 选项卡，点击 `部署` -> 在所有部署 找到最新一条部署记录 ，在右边点击 3个点 `...` 选择 `重试部署` 即可。
-7. 本频道订阅器转换地址：https://sub.amclubss.com
+   - Click `Save` 选项卡，点击 `部署` -> 在所有部署 找到最新一条部署记录 ，在右边点击 3个点 `...` 选择 `重试部署` 即可。
+7. Subscription Converter：https://sub.amclubss.com
 
 </details>
 
