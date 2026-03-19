@@ -20,7 +20,7 @@ With this script, you can easily use online configuration converters to subscrib
 ### 2、Registration**Free Domain** [Click to Watch All Free Domain Video Tutorials](https://www.youtube.com/playlist?list=PLGVQi7TjHKXZGODTvB8DEervrmHANQ1AR)
 
 ### 3、**Subscription Clients** [Click to Watch Usage Video Tutorial](https://youtu.be/xGOL57cmvaw)
-👉 [Click to Join our Telegram Group | Discussion"](https://t.me/AM_CLUBS)Send Keyword **Tools** Get Download
+👉 ["Click to Join our Telegram Group | Discussion"](https://t.me/AM_CLUBS) Send Keyword **Tools** Get Download
 
 ### 4、Cloudflare Standard **Ports** Essentials  [Click to Watch Preferred IP Video Tutorial](https://youtu.be/pKrlfRRB0gU)
 - 80 Ports (HTTP)：80，8080，8880，2052，2082，2086，2095
@@ -63,27 +63,27 @@ With this script, you can easily use online configuration converters to subscrib
  <details>
 <summary>点击展开/收起</summary>
 
-1. 部署 Cloudflare Pages：
+1. Deploying to Cloudflare Pages：
    - 下载 [_worker.js.zip](https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/_worker.js.zip) 文件，并点上 Star !!!
    - 在 CloudFlare主页的左边菜单的 `计算(Workers)` 选项卡 -> 点击 `Workers 和 Pages` -> 右上方点击 -> `创建应用程序` -> 选择 `Pages`里的 `拖放文件` 点击 `开始使用` -> 填入 `项目名称`(此名称自己命名)后 -> 右边点击 `创建项目` 后 -> 下方 `上传您的项目资产` 点击 `拖放或从计算机中选择` 后  -> 点击 `上传压缩文件` 然后上传你下载好的 [_worker.js.zip](https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/_worker.js.zip) 文件后点击 `部署站点`。
-2. 给UUID设置KV存储桶(推荐设置)： 
+2. Bind KV Namespace for UUID Storage (Recommended Settings)： 
    - 在 CloudFlare主页的左边菜单的 `存储和数据库` 选项卡 -> 展开选择点击 `Workers KV` -> 右方点击 -> `创建实例(Create Instance)` -> 填入 `命名空间名称`(此名称自己命名) 后 -> 点击 `创建`。(此步已有可忽略)
    - 在 Pages控制台的 `设置` 选项卡 -> 点击 `绑定` -> 右方点击 -> `添加` -> 选择 `KV 命名空间` -> 变量名称 填入 `amclubs`(此名称固定不能变) -> KV 命名空间 选择 在上面创建的 `命名空间名称`后 -> 右下方点击 `保存`。
    - 在 `设置` 选项卡，在右上角点击 `创建部署` 后，重新上传 [_worker.js.zip](https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/_worker.js.zip) 文件后点击 `保存并部署` 即可。
-3. 给 Pages绑定 CNAME自定义域：[无域名绑定Cloudflare部署视频教程]->[免费域名教程1](https://youtu.be/wHJ6TJiCF0s) [免费域名教程2](https://youtu.be/yEF1YoLVmig)  [免费域名教程3](https://www.youtube.com/watch?v=XS0EgqckUKo&t=320s)
+3. Bind CNAME Custom Domain for Pages：[无域名绑定Cloudflare部署视频教程]->[免费域名教程1](https://youtu.be/wHJ6TJiCF0s) [免费域名教程2](https://youtu.be/yEF1YoLVmig)  [免费域名教程3](https://www.youtube.com/watch?v=XS0EgqckUKo&t=320s)
    - 在 Pages控制台的 `自定义域`选项卡，下方点击 `设置自定义域`。
    - 填入你的自定义次级域名，注意不要使用你的根域名，例如：
      您分配到的域名是 `amclubss.com`，则添加自定义域填入 `vless.amclubss.com`即可，点击 `激活域`即可。    
-4. 验证部署是否成功：
+4. Verify Deployment Success：
    - 访问 `https://[YOUR-WORKERS-URL]` 即可进入登录页面,登录成功就是完成部署(默认登录密码(UUID)是：ec872d8f-72b0-4a04-b612-0327d85e18ed)。
    - 例如 `https://vless.amclubss.com` 然后进入登录页面 -> 输入密码 `ec872d8f-72b0-4a04-b612-0327d85e18ed` -> 点击登录 -> 成功登录。 
-5. 修改默认登录密码(UUID)变量，使用KV存储桶(推荐修改，防止别人用你节点)： 
+5. Update Login Credentials(UUID)变量，使用KV存储桶(推荐修改，防止别人用你节点)： 
    - `https://vless.amclubss.com` 然后进入登录页面 -> 输入密码 `ec872d8f-72b0-4a04-b612-0327d85e18ed` -> 点击登录 -> 成功登录。 
    - 在登录成功页面 ID选项 -> 填入 `新的UUID` 后,[在线获取UUID](https://1024tools.com/uuid) -> 点击 `保存`。
    - 保存成功后，原登录密码(UUID)已作废不能访问，用新登录密码(UUID)登录访问即可。
-6. 订阅连接和节点生成使用方法：  [视频教程](https://www.youtube.com/watch?v=i-XnnP-MptY&t=596s)
-   - 进入 [am-cf-tunnel-sub](https://github.com/amclubs/am-cf-tunnel-sub) 项目 -> 根据项目教程部署和使用。(此步已有可忽略)
-   - 本频道订阅器转换地址：https://sub.amclubss.com
+6. How to Use: Subscription Link & Node Generation：  [视频教程](https://www.youtube.com/watch?v=i-XnnP-MptY&t=596s)
+   - Access [am-cf-tunnel-sub](https://github.com/amclubs/am-cf-tunnel-sub) Repository -> Deployment and Usage Guide。(Skip if Already Configured)
+   - Sub-Converter URL (Channel Exclusive)：https://sub.amclubss.com
 
 </details>
 
