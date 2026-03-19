@@ -1,12 +1,14 @@
 ### 🚀[am-cf-tunnel](https://github.com/amclubs/am-cf-tunnel)
-这是一个基于 Cloudflare Workers 和 Pages平台的脚本，在原版的基础上修改了显示 VLESS、Trojan 配置信息转换为订阅内容。使用该脚本你可以方便地将 VLESS、Trojan 配置信息使用在线配置转换到 Clash、 Singbox 、Quantumult X等工具中订阅使用。Cloudflare Workers 和 Pages 生成VLESS、Trojan节点通过订阅器实现一键订阅节点。[最新视频教程](https://youtu.be/e1Lvo5F37vk)、[🎬 YouTube](https://youtube.com/@am_clubs?sub_confirmation=1)、 [💬 Telegram](https://t.me/am_clubs)、[📂 GitHub](https://github.com/amclubs)、[🌐 Blog](https://amclubss.com)
+This is a script based on the Cloudflare Workers and Pages platforms. It is a modified version of the original, specifically enhanced to display and convert VLESS and Trojan configuration information into subscription content.
 
-### 🎬推荐视频教程
+With this script, you can easily use online configuration converters to subscribe to VLESS and Trojan nodes within tools like Clash, Sing-box, and Quantumult X. By leveraging Cloudflare Workers and Pages, this script enables one-click node subscriptions via a built-in sub-converter.。[最新视频教程](https://youtu.be/e1Lvo5F37vk)、[🎬 YouTube](https://youtube.com/@am_clubs?sub_confirmation=1)、 [💬 Telegram](https://t.me/am_clubs)、[📂 GitHub](https://github.com/amclubs)、[🌐 Blog](https://amclubss.com)
+
+### Recommended Video Tutorials
 - [Error1101和522解决教程](https://youtu.be/4fcyJjstFdg) | [优选IP和反代IP教程](https://youtu.be/pKrlfRRB0gU) | [常见-1问题教程](https://youtu.be/kYQxV1G-ePw) | [免费域名教程](https://www.youtube.com/playlist?list=PLGVQi7TjHKXZGODTvB8DEervrmHANQ1AR) | [NAT64版教程](https://youtu.be/nx80sGpVoBM)
 - [VLESS免费节点部署教程](https://youtu.be/dPH63nITA0M) | [Trojan免费节点部署教程](https://youtu.be/uh27CVVi6HA) | [从入门到精通免费部署教程](https://youtu.be/ag12Rpc9KP4)| [高级固定节点区域教程](https://youtu.be/wgeM9XvZ5RA)
 - [GitHub私有储优选IP文教程](https://youtu.be/vX3U3FuuTT8) | [CF免费KV存储IP文件教程](https://youtu.be/dzxezRV1v-o)  | [获取CF自家域名无限节点](https://youtu.be/novrPiMsK70) | [聚合节点订阅教程](https://youtu.be/YBO2hf96150)
-- [🔥amclubs-cfnat自动优先IP(Win桌面版)](https://youtu.be/-a6NJ6vPSu4) | [Linux&openwrt软路由版](https://youtu.be/ZC6fxZwPaiM) | [Mac版](https://youtu.be/gf6gncc2yEE) | [安卓(Android)手机版](https://youtu.be/7yamDM38MFw) | [docker版](https://youtu.be/gRnNwoeUQKU)
-- 本频道订阅器转换地址：https://sub.amclubss.com
+- [🔥Cloudflare NAT (amclubs-cfnat)自动优先IP(Win桌面版)](https://youtu.be/-a6NJ6vPSu4) | [Linux&openwrt软路由版](https://youtu.be/ZC6fxZwPaiM) | [Mac版](https://youtu.be/gf6gncc2yEE) | [安卓(Android)手机版](https://youtu.be/7yamDM38MFw) | [docker版](https://youtu.be/gRnNwoeUQKU)
+- 🔥 Official Subscription Converter: https://sub.amclubss.com
 
 ## 📝一、前期准备资料
 <details>
