@@ -315,11 +315,12 @@ With this script, you can easily use online configuration converters to subscrib
 </details>
 </center>
 
-# 
- ⚠️Disclaimer:
+###⚠️Disclaimer:
  - 1. Purpose & Copyright: This project is designed and developed solely for learning, research, and security testing purposes. Please delete all files within 24 hours of downloading. It may not be used for any commercial purposes. All text, data, and images are copyrighted; any reproduction must clearly credit the original source.
  - 2. Legal Compliance: Users of this program must strictly comply with the laws and regulations of the region where the server is deployed, as well as the laws of the hosting country and the user's own country. Any consequences resulting from the use of this project by any individual or group shall be borne entirely by the user.
  - 3. Limitation of Liability: The author shall not be held responsible for any direct or indirect damages arising from the use of this project. The author reserves the right to update this disclaimer at any time without prior notice.
+#
 
-##⭐ Don't forget to Star!
+###⭐ Don't forget to Star!
 [![Stargazers over time](https://starchart.cc/amclubs/am-cf-tunnel.svg?variant=adaptive)](https://starchart.cc/amclubs/am-cf-tunnel)
+#
