@@ -245,15 +245,15 @@ With this script, you can easily use online configuration converters to subscrib
 
 </details>
 
-🔧变量说明 [视频教程](https://www.youtube.com/watch?v=i-XnnP-MptY&t=808s)
+🔧Environment Variables [Video Guide](https://www.youtube.com/watch?v=i-XnnP-MptY&t=808s)
 <details>
-<summary>点击展开/收起</summary>
+<summary>Click to Expand / Collapse</summary>
 
-| 变量名 | 示例 | 必填 | 备注 | YT |
+| Variable Name | Example | Required | Remarks | YT |
 |-----|-----|-----|-----|-----|
-| ID   | ec872d8f-72b0-4a04-b612-0327d85e18ed（默认）|✅| 订阅器的登录密码 | |
-| UUID | ec872d8f-72b0-4a04-b612-0327d85e18ed |✅| Cloudflare部署节点的ID变量值[在线获取UUID](https://1024tools.com/uuid)   |  |
-| HOST | vless.amclubss.com |✅| Cloudflare部署节点的域名或自定域名 | |
+| ID   | ec872d8f-72b0-4a04-b612-0327d85e18ed（Default）|✅| Subscription Converter Login Password | |
+| UUID | ec872d8f-72b0-4a04-b612-0327d85e18ed |✅| Cloudflare Deployment Node ID Variable Value[Generate UUID Online](https://1024tools.com/uuid)   |  |
+| HOST | vless.amclubss.com |✅| Cloudflare Deployment Domain or Custom Domain | |
 | IP_URL           | [https://raw.github.../ipUrl.txt](https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/example/ipUrl.txt) </br>或</br> [https://raw.github.../ipv4.txt](https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/example/ipv4.txt) |❌| （推荐）优选(ipv4、ipv6、域名、API)地址(支持多个之间`,`或 换行 作间隔)，支持文件连接后里带PROXYIP参数，可以实现不同区域优先IP使用不同的PROXYIP固定区域，解决IP乱跳问题  | [视频教程](https://www.youtube.com/watch?v=4fcyJjstFdg&t=349s)|
 | PROXYIP          | proxyip.amclubs.kozow.com </br>或</br> [https://raw.github.../proxyip.txt](https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/example/proxyip.txt)  |❌| 访问CloudFlare的CDN代理节点(支持多PROXYIP, PROXYIP之间使用`,`或 换行 作间隔),支持端口设置默认443 如: proxyip.amclubs.kozow.com:2053 ，支持远程txt或csv文件| [视频教程](https://youtu.be/pKrlfRRB0gU) |
 | SOCKS5           | user:password@127.0.0.1:1080         |❌| 优先作为访问CFCDN站点的SOCKS5代理                                                   | [视频教程](https://youtu.be/Bw82BH_ecC4) |
@@ -275,7 +275,7 @@ With this script, you can easily use online configuration converters to subscrib
 </details>
 
 ## 
-## 🛠已适配订阅工具 [点击进入视频教程](https://youtu.be/xGOL57cmvaw) [点进进入karing视频教程](https://youtu.be/M3vLLBWfuFg)
+## 🛠Compatible Subscription Tools [Click for Video Tutorial](https://youtu.be/xGOL57cmvaw) [Click for Karing Video Tutorial](https://youtu.be/M3vLLBWfuFg)
 <details>
 <summary>Click to Expand / Collapse</summary>
 
@@ -302,15 +302,15 @@ With this script, you can easily use online configuration converters to subscrib
 
 # 
 <center>
-<details><summary><strong> ☕ [点击展开] 赞赏支持 ~🧧</strong></summary>
-*我非常感谢您的赞赏和支持，它们将极大地激励我继续创新，持续产生有价值的工作。*
+<details><summary><strong> ☕ [Click to Expand] Support & Donations ~🧧🧧</strong></summary>
+*I truly appreciate your appreciation and support; it greatly inspires me to keep innovating and consistently producing valuable work.*
 
 - **USDT-TRC20:** `TWTxUyay6QJN3K4fs4kvJTT8Zfa2mWTwDD`
 - **TRX-TRC20:** `TWTxUyay6QJN3K4fs4kvJTT8Zfa2mWTwDD`
 
 <div align="center"> 
   <img src="https://github.com/user-attachments/assets/e6cdc42a-6374-4722-b833-601738f72196" width="200"></br> 
-  TRC10/TRC20扫码支付 
+  Scan to Pay via TRC10 / TRC20 
 </div> 
 </details>
 </center>
