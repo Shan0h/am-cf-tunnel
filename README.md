@@ -10,7 +10,7 @@ With this script, you can easily use online configuration converters to subscrib
 - [🔥Cloudflare NAT (amclubs-cfnat): Auto-Preferred IP (Windows Desktop)](https://youtu.be/-a6NJ6vPSu4) | [Linux & OpenWrt (Router Version)](https://youtu.be/ZC6fxZwPaiM) | [Mac Version](https://youtu.be/gf6gncc2yEE) | [Android Version](https://youtu.be/7yamDM38MFw) | [Docker Version](https://youtu.be/gRnNwoeUQKU)
 - 🔥 Official Subscription Converter: https://sub.amclubss.com
 
-## 📝一、Prerequisites
+## 📝I. Prerequisites
 <details>
 <summary>Click to Expand / Collapse</summary>
 
@@ -65,7 +65,7 @@ With this script, you can easily use online configuration converters to subscrib
 
 1. Deploying to Cloudflare Pages：
    - Download the [_worker.js.zip](https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/_worker.js.zip) file and give this project a Star!
-   - In the Cloudflare dashboard left sidebar `计算(Workers)` 选项卡 -> 点击 `Workers 和 Pages` -> 右上方点击 -> `创建应用程序` -> 选择 `Pages`里的 `拖放文件` 点击 `开始使用` -> 填入 `项目名称`(此名称自己命名)后 -> 右边点击 `创建项目` 后 -> 下方 `上传您的项目资产` 点击 `拖放或从计算机中选择` 后  -> 点击 `上传压缩文件` 然后上传你下载好的 [_worker.js.zip](https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/_worker.js.zip) 文件后点击 `部署站点`。
+   - In the Cloudflare dashboard left sidebar `Compute (Workers)` 选项卡 -> 点击 `Workers 和 Pages` -> 右上方点击 -> `Create Application` -> 选择 `Pages`里的 `Upload by Drag-and-Drop` 点击 `Getting Started` -> 填入 `项目名称`(此名称自己命名)后 -> 右边点击 `创建项目` 后 -> 下方 `上传您的项目资产` 点击 `拖放或从计算机中选择` 后  -> 点击 `上传压缩文件` 然后上传你下载好的 [_worker.js.zip](https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/_worker.js.zip) After uploading files, click `Deploy Site`。
 2. Bind KV Namespace for UUID Storage (Recommended Settings)： 
    - 在 CloudFlare主页的左边菜单的 `存储和数据库` 选项卡 -> 展开选择点击 `Workers KV` -> 右方点击 -> `创建实例(Create Instance)` -> 填入 `命名空间名称`(此名称自己命名) 后 -> 点击 `创建`。(此步已有可忽略)
    - 在 Pages控制台的 `设置` 选项卡 -> 点击 `绑定` -> 右方点击 -> `添加` -> 选择 `KV 命名空间` -> 变量名称 填入 `amclubs`(此名称固定不能变) -> KV 命名空间 选择 在上面创建的 `命名空间名称`后 -> 右下方点击 `保存`。
@@ -73,10 +73,10 @@ With this script, you can easily use online configuration converters to subscrib
 3. Bind CNAME Custom Domain for Pages：[无域名绑定Cloudflare部署视频教程]->[免费域名教程1](https://youtu.be/wHJ6TJiCF0s) [免费域名教程2](https://youtu.be/yEF1YoLVmig)  [免费域名教程3](https://www.youtube.com/watch?v=XS0EgqckUKo&t=320s)
    - 在 Pages控制台的 `自定义域`选项卡，下方点击 `设置自定义域`。
    - 填入你的自定义次级域名，注意不要使用你的根域名，例如：
-     您分配到的域名是 `amclubss.com`，则添加自定义域填入 `vless.amclubss.com`即可，点击 `激活域`即可。    
+     Your assigned domain is `amclubss.com`，Add a Custom Domain and enter `vless.amclubss.com` and then click `Activate Domain` Done.。    
 4. Verify Deployment Success：
    - Example: `https://[YOUR-WORKERS-URL]` To access the login page, Successful login means deployment is complete.(Default Credentials (UUID)：ec872d8f-72b0-4a04-b612-0327d85e18ed)。
-   - Example: `https://vless.amclubss.com` 然后进入登录页面 -> 输入密码 `ec872d8f-72b0-4a04-b612-0327d85e18ed` -> 点击登录 -> 成功登录。 
+   - Example: `https://vless.amclubss.com` The login page will appear. -> Enter Password `ec872d8f-72b0-4a04-b612-0327d85e18ed` -> Click Login -> Logged In Successfully。 
 5. Update Login Credentials(UUID)变量，使用KV存储桶(推荐修改，防止别人用你节点)： 
    - `https://vless.amclubss.com` Access the login portal. -> Enter Default UUID `ec872d8f-72b0-4a04-b612-0327d85e18ed` -> Click Login -> Successfully Logged In。 
    - In the ID Section on the Dashboard -> Input `New UUID` 后,[Generate UUID Online](https://1024tools.com/uuid) -> Click `Apply Settings`。
