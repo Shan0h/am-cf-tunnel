@@ -1,7 +1,7 @@
 ### 🚀[am-cf-tunnel](https://github.com/amclubs/am-cf-tunnel)
 This is a script based on the Cloudflare Workers and Pages platforms. It is a modified version of the original, specifically enhanced to display and convert VLESS and Trojan configuration information into subscription content.
 
-With this script, you can easily use online configuration converters to subscribe to VLESS and Trojan nodes within tools like Clash, Sing-box, and Quantumult X. By leveraging Cloudflare Workers and Pages, this script enables one-click node subscriptions via a built-in sub-converter.[最新视频教程](https://youtu.be/e1Lvo5F37vk)、[🎬 YouTube](https://youtube.com/@am_clubs?sub_confirmation=1)、 [💬 Telegram](https://t.me/am_clubs)、[📂 GitHub](https://github.com/amclubs)、[🌐 Blog](https://amclubss.com)
+With this script, you can easily use online configuration converters to subscribe to VLESS and Trojan nodes within tools like Clash, Sing-box, and Quantumult X. By leveraging Cloudflare Workers and Pages, this script enables one-click node subscriptions via a built-in sub-converter.[Latest Video Tutorial](https://youtu.be/e1Lvo5F37vk)、[🎬 YouTube](https://youtube.com/@am_clubs?sub_confirmation=1)、 [💬 Telegram](https://t.me/am_clubs)、[📂 GitHub](https://github.com/amclubs)、[🌐 Blog](https://amclubss.com)
 
 ### Recommended Video Tutorials
 - [Fixing Error 1101 and 522: Troubleshooting Guide](https://youtu.be/4fcyJjstFdg) | [Cloudflare Preferred IP & Reverse Proxy IP Tutorial](https://youtu.be/pKrlfRRB0gU) | [Common -1 Error: Troubleshooting Guide](https://youtu.be/kYQxV1G-ePw) | [Free Domain Tutorial](https://www.youtube.com/playlist?list=PLGVQi7TjHKXZGODTvB8DEervrmHANQ1AR) | [NAT64 Version Tutorial](https://youtu.be/nx80sGpVoBM)
@@ -145,7 +145,7 @@ With this script, you can easily use online configuration converters to subscrib
 </details>
 
 ## 
-## 🧩六、Node Subscribing Service Deployment  [Vercel部署视频教程](https://www.youtube.com/playlist?list=PLGVQi7TjHKXZGODTvB8DEervrmHANQ1AR) [Cloudfare部署视频教程](https://youtu.be/f8ZTvv4u3Pw)
+## 🧩VI、Node Subscribing Service Deployment  [Vercel部署视频教程](https://www.youtube.com/playlist?list=PLGVQi7TjHKXZGODTvB8DEervrmHANQ1AR) [Cloudfare部署视频教程](https://youtu.be/f8ZTvv4u3Pw)
 
 #### `①` Deployment via Vercel [视频教程](https://www.youtube.com/watch?v=i-XnnP-MptY&t=596s)
 <details>
@@ -160,7 +160,7 @@ With this script, you can easily use online configuration converters to subscrib
 访问 `http://部署域名` 即可。
 </details>
 
-#### `②` Cloudflare Workers Deployment Method [视频教程](https://www.youtube.com/watch?v=D4XqeRNm2JI&t=501s)
+#### `II.` Cloudflare Workers Deployment Method [视频教程](https://www.youtube.com/watch?v=D4XqeRNm2JI&t=501s)
 <details>
 <summary>点击展开/收起</summary>
 
@@ -216,7 +216,7 @@ With this script, you can easily use online configuration converters to subscrib
 
 </details>
 
-#### `④` Cloudflare Pages Deployment via GitHub **(Not Recommended)** [Video Tutorial](https://www.youtube.com/watch?v=f8ZTvv4u3Pw&t=137s)
+#### `IV.` Cloudflare Pages Deployment via GitHub **(Not Recommended)** [Video Tutorial](https://www.youtube.com/watch?v=f8ZTvv4u3Pw&t=137s)
 <details>
 <summary>点击展开/收起</summary>
    
@@ -275,7 +275,7 @@ With this script, you can easily use online configuration converters to subscrib
 </details>
 
 ## 
-## 🛠Compatible Subscription Tools [Click for Video Tutorial](https://youtu.be/xGOL57cmvaw) [Click for Karing Video Tutorial](https://youtu.be/M3vLLBWfuFg)
+## 🛠 Compatible Subscription Tools [Click for Video Tutorial](https://youtu.be/xGOL57cmvaw) [Click for Karing Video Tutorial](https://youtu.be/M3vLLBWfuFg)
 <details>
 <summary>Click to Expand / Collapse</summary>
 
@@ -297,7 +297,7 @@ With this script, you can easily use online configuration converters to subscrib
 </details>
 
 ##
-### 🙏Thank you
+### 🙏 Thank you
 [3Kmfi6HP](https://github.com/3Kmfi6HP/EDtunnel)、[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash/config)
 
 # 
@@ -316,7 +316,7 @@ With this script, you can easily use online configuration converters to subscrib
 </center>
 
 #
-⚠️Disclaimer:
+⚠️ Disclaimer:
  - 1. Purpose & Copyright: This project is designed and developed solely for learning, research, and security testing purposes. Please delete all files within 24 hours of downloading. It may not be used for any commercial purposes. All text, data, and images are copyrighted; any reproduction must clearly credit the original source.
  - 2. Legal Compliance: Users of this program must strictly comply with the laws and regulations of the region where the server is deployed, as well as the laws of the hosting country and the user's own country. Any consequences resulting from the use of this project by any individual or group shall be borne entirely by the user.
  - 3. Limitation of Liability: The author shall not be held responsible for any direct or indirect damages arising from the use of this project. The author reserves the right to update this disclaimer at any time without prior notice.
