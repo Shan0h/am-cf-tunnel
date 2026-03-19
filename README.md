@@ -65,13 +65,13 @@ With this script, you can easily use online configuration converters to subscrib
 
 1. Deploying to Cloudflare Pages：
    - Download the [_worker.js.zip](https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/_worker.js.zip) file and give this project a Star!
-   - In the Cloudflare dashboard left sidebar `Compute (Workers)` 选项卡 -> 点击 `Workers 和 Pages` -> 右上方点击 -> `Create Application` -> 选择 `Pages`里的 `Upload by Drag-and-Drop` 点击 `Getting Started` -> 填入 `项目名称`(此名称自己命名)后 -> 右边点击 `创建项目` 后 -> 下方 `上传您的项目资产` 点击 `拖放或从计算机中选择` 后  -> 点击 `上传压缩文件` 然后上传你下载好的 [_worker.js.zip](https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/_worker.js.zip) After uploading files, click `Deploy Site`。
+   - In the Cloudflare dashboard left sidebar `Compute (Workers)` 选项卡 -> 点击 `Workers 和 Pages` -> 右上方点击 -> `Create Application` -> 选择 `Pages`里的 `Upload by Drag-and-Drop` 点击 `Getting Started` -> 填入 `Project Name`(此名称自己命名)后 -> 右边点击 `New Project` 后 -> 下方 `上传您的项目资产` 点击 `Drag & drop or browse your files` 后  -> 点击 `Upload Assets (Zip)` Then upload the file you just downloaded.[_worker.js.zip](https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/_worker.js.zip) After uploading files, click `Deploy Site`。
 2. Bind KV Namespace for UUID Storage (Recommended Settings)： 
    - 在 CloudFlare主页的左边菜单的 `存储和数据库` 选项卡 -> 展开选择点击 `Workers KV` -> 右方点击 -> `创建实例(Create Instance)` -> 填入 `命名空间名称`(此名称自己命名) 后 -> 点击 `创建`。(此步已有可忽略)
    - 在 Pages控制台的 `设置` 选项卡 -> 点击 `绑定` -> 右方点击 -> `添加` -> 选择 `KV 命名空间` -> 变量名称 填入 `amclubs`(此名称固定不能变) -> KV 命名空间 选择 在上面创建的 `命名空间名称`后 -> 右下方点击 `保存`。
-   - 在 `设置` 选项卡，在右上角点击 `创建部署` 后，重新上传 [_worker.js.zip](https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/_worker.js.zip) 文件后点击 `保存并部署` 即可。
+   - 在 `设置` 选项卡，在右上角点击 `创建部署` 后，重新上传 [_worker.js.zip](https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/_worker.js.zip) 文件后点击 `Deploy Site` 即可。
 3. Bind CNAME Custom Domain for Pages：[无域名绑定Cloudflare部署视频教程]->[免费域名教程1](https://youtu.be/wHJ6TJiCF0s) [免费域名教程2](https://youtu.be/yEF1YoLVmig)  [免费域名教程3](https://www.youtube.com/watch?v=XS0EgqckUKo&t=320s)
-   - 在 Pages控制台的 `自定义域`选项卡，下方点击 `设置自定义域`。
+   - 在 Pages控制台的 `Custom Domain`选项卡，Click the button below `Bind Custom Domain`。
    - 填入你的自定义次级域名，注意不要使用你的根域名，例如：
      Your assigned domain is `amclubss.com`，Add a Custom Domain and enter `vless.amclubss.com` and then click `Activate Domain` Done.。    
 4. Verify Deployment Success：
@@ -120,7 +120,7 @@ With this script, you can easily use online configuration converters to subscrib
 ## 🔧V. Environment Variables [Video Tutorial](https://www.youtube.com/watch?v=i-XnnP-MptY&t=468s)
 | Environment Variable | Example | Required | Remarks | YT |
 |-----|-----|-----|-----|-----|
-| ID   | ec872d8f-72b0-4a04-b612-0327d85e18ed（Default）|✅| 支持Cloudflare的KV存储桶设置 [在线获取UUID](https://1024tools.com/uuid) VLESS、Shared Trojan Nodes | |
+| ID   | ec872d8f-72b0-4a04-b612-0327d85e18ed（Default）|✅| Cloudflare KV Namespace Integration [Get UUID Online](https://1024tools.com/uuid) VLESS、Shared Trojan Nodes | |
 | D_URL | https://cloudflare-dns.com/dns-query |❌| DNS Parsed Result & Benefits，Advanced Users Only |  |
 
 ## 
