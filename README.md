@@ -61,11 +61,11 @@ With this script, you can easily use online configuration converters to subscrib
 ## 
 ## 📦III. Pages Deployment via Manual Upload **(Highly Recommended!!!)** [Step-by-Step Video Tutorial](https://www.youtube.com/watch?v=i-XnnP-MptY&t=1100s)
  <details>
-<summary>点击展开/收起</summary>
+<summary>Click to Expand/Collapse</summary>
 
 1. Deploying to Cloudflare Pages：
-   - 下载 [_worker.js.zip](https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/_worker.js.zip) 文件，并点上 Star !!!
-   - 在 CloudFlare主页的左边菜单的 `计算(Workers)` 选项卡 -> 点击 `Workers 和 Pages` -> 右上方点击 -> `创建应用程序` -> 选择 `Pages`里的 `拖放文件` 点击 `开始使用` -> 填入 `项目名称`(此名称自己命名)后 -> 右边点击 `创建项目` 后 -> 下方 `上传您的项目资产` 点击 `拖放或从计算机中选择` 后  -> 点击 `上传压缩文件` 然后上传你下载好的 [_worker.js.zip](https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/_worker.js.zip) 文件后点击 `部署站点`。
+   - Download the [_worker.js.zip](https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/_worker.js.zip) file and give this project a Star!
+   - In the Cloudflare dashboard left sidebar `计算(Workers)` 选项卡 -> 点击 `Workers 和 Pages` -> 右上方点击 -> `创建应用程序` -> 选择 `Pages`里的 `拖放文件` 点击 `开始使用` -> 填入 `项目名称`(此名称自己命名)后 -> 右边点击 `创建项目` 后 -> 下方 `上传您的项目资产` 点击 `拖放或从计算机中选择` 后  -> 点击 `上传压缩文件` 然后上传你下载好的 [_worker.js.zip](https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/_worker.js.zip) 文件后点击 `部署站点`。
 2. Bind KV Namespace for UUID Storage (Recommended Settings)： 
    - 在 CloudFlare主页的左边菜单的 `存储和数据库` 选项卡 -> 展开选择点击 `Workers KV` -> 右方点击 -> `创建实例(Create Instance)` -> 填入 `命名空间名称`(此名称自己命名) 后 -> 点击 `创建`。(此步已有可忽略)
    - 在 Pages控制台的 `设置` 选项卡 -> 点击 `绑定` -> 右方点击 -> `添加` -> 选择 `KV 命名空间` -> 变量名称 填入 `amclubs`(此名称固定不能变) -> KV 命名空间 选择 在上面创建的 `命名空间名称`后 -> 右下方点击 `保存`。
@@ -75,13 +75,13 @@ With this script, you can easily use online configuration converters to subscrib
    - 填入你的自定义次级域名，注意不要使用你的根域名，例如：
      您分配到的域名是 `amclubss.com`，则添加自定义域填入 `vless.amclubss.com`即可，点击 `激活域`即可。    
 4. Verify Deployment Success：
-   - 访问 `https://[YOUR-WORKERS-URL]` 即可进入登录页面,登录成功就是完成部署(默认登录密码(UUID)是：ec872d8f-72b0-4a04-b612-0327d85e18ed)。
-   - 例如 `https://vless.amclubss.com` 然后进入登录页面 -> 输入密码 `ec872d8f-72b0-4a04-b612-0327d85e18ed` -> 点击登录 -> 成功登录。 
+   - Example: `https://[YOUR-WORKERS-URL]` To access the login page, Successful login means deployment is complete.(Default Credentials (UUID)：ec872d8f-72b0-4a04-b612-0327d85e18ed)。
+   - Example: `https://vless.amclubss.com` 然后进入登录页面 -> 输入密码 `ec872d8f-72b0-4a04-b612-0327d85e18ed` -> 点击登录 -> 成功登录。 
 5. Update Login Credentials(UUID)变量，使用KV存储桶(推荐修改，防止别人用你节点)： 
-   - `https://vless.amclubss.com` 然后进入登录页面 -> 输入密码 `ec872d8f-72b0-4a04-b612-0327d85e18ed` -> 点击登录 -> 成功登录。 
-   - 在登录成功页面 ID选项 -> 填入 `新的UUID` 后,[在线获取UUID](https://1024tools.com/uuid) -> 点击 `保存`。
-   - 保存成功后，原登录密码(UUID)已作废不能访问，用新登录密码(UUID)登录访问即可。
-6. How to Use: Subscription Link & Node Generation：  [视频教程](https://www.youtube.com/watch?v=i-XnnP-MptY&t=596s)
+   - `https://vless.amclubss.com` Access the login portal. -> Enter Default UUID `ec872d8f-72b0-4a04-b612-0327d85e18ed` -> Click Login -> Successfully Logged In。 
+   - In the ID Section on the Dashboard -> Input `New UUID` 后,[Generate UUID Online](https://1024tools.com/uuid) -> Click `Apply Settings`。
+   - After applying changes，Default Password(UUID)Expired/Invalid ,Log in with Your New Credentials (UUID), Access your dashboard via login.。
+6. How to Use: Subscription Link & Node Generation：  [Video Tutorial](https://www.youtube.com/watch?v=i-XnnP-MptY&t=596s)
    - Access [am-cf-tunnel-sub](https://github.com/amclubs/am-cf-tunnel-sub) Repository -> Deployment and Usage Guide。(Skip if Already Configured)
    - Sub-Converter URL (Channel Exclusive)：https://sub.amclubss.com
 
