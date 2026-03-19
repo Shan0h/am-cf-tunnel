@@ -59,7 +59,7 @@ With this script, you can easily use online configuration converters to subscrib
 </details>
 
 ## 
-## 📦三、Pages 上传 部署方法 **(最佳推荐!!!)** [视频教程](https://www.youtube.com/watch?v=i-XnnP-MptY&t=1100s)
+## 📦III. Pages Deployment via Manual Upload **(Highly Recommended!!!)** [Step-by-Step Video Tutorial](https://www.youtube.com/watch?v=i-XnnP-MptY&t=1100s)
  <details>
 <summary>点击展开/收起</summary>
 
@@ -88,7 +88,7 @@ With this script, you can easily use online configuration converters to subscrib
 </details>
 
 ## 
-## 🧰四、Pages GitHub 部署方法 **(不推荐)** [视频教程](https://www.youtube.com/watch?v=dPH63nITA0M&t=654s)
+## 🧰IV. Pages Deployment via GitHub **(Not Recommended)** [Video Tutorial](https://www.youtube.com/watch?v=dPH63nITA0M&t=654s)
 <details>
 <summary>点击展开/收起</summary>
    
@@ -117,7 +117,7 @@ With this script, you can easily use online configuration converters to subscrib
 </details>
 
 ## 
-## 🔧五、变量说明 [视频教程](https://www.youtube.com/watch?v=i-XnnP-MptY&t=468s)
+## 🔧V. Environment Variables [Video Tutorial](https://www.youtube.com/watch?v=i-XnnP-MptY&t=468s)
 | 变量名 | 示例 | 必填 | 备注 | YT |
 |-----|-----|-----|-----|-----|
 | ID   | ec872d8f-72b0-4a04-b612-0327d85e18ed（默认）|✅| 支持Cloudflare的KV存储桶设置 [在线获取UUID](https://1024tools.com/uuid) VLESS、Trojan节点共用 | |
@@ -145,9 +145,9 @@ With this script, you can easily use online configuration converters to subscrib
 </details>
 
 ## 
-## 🧩六、节点订阅器部署  [Vercel部署视频教程](https://www.youtube.com/playlist?list=PLGVQi7TjHKXZGODTvB8DEervrmHANQ1AR) [Cloudfare部署视频教程](https://youtu.be/f8ZTvv4u3Pw)
+## 🧩六、Node Subscribing Service Deployment  [Vercel部署视频教程](https://www.youtube.com/playlist?list=PLGVQi7TjHKXZGODTvB8DEervrmHANQ1AR) [Cloudfare部署视频教程](https://youtu.be/f8ZTvv4u3Pw)
 
-#### `①` Vercel方式部署 [视频教程](https://www.youtube.com/watch?v=i-XnnP-MptY&t=596s)
+#### `①` Deployment via Vercel [视频教程](https://www.youtube.com/watch?v=i-XnnP-MptY&t=596s)
 <details>
 <summary>点击展开/收起</summary>
 
@@ -160,7 +160,7 @@ With this script, you can easily use online configuration converters to subscrib
 访问 `http://部署域名` 即可。
 </details>
 
-#### `②` Cloudfare Workers 部署方法 [视频教程](https://www.youtube.com/watch?v=D4XqeRNm2JI&t=501s)
+#### `②` Cloudflare Workers Deployment Method [视频教程](https://www.youtube.com/watch?v=D4XqeRNm2JI&t=501s)
 <details>
 <summary>点击展开/收起</summary>
 
@@ -216,7 +216,7 @@ With this script, you can easily use online configuration converters to subscrib
 
 </details>
 
-#### `④` Cloudfare Pages GitHub 部署方法 **(不推荐)** [视频教程](https://www.youtube.com/watch?v=f8ZTvv4u3Pw&t=137s)
+#### `④` Cloudflare Pages Deployment via GitHub **(Not Recommended)** [Video Tutorial](https://www.youtube.com/watch?v=f8ZTvv4u3Pw&t=137s)
 <details>
 <summary>点击展开/收起</summary>
    
@@ -317,9 +317,9 @@ With this script, you can easily use online configuration converters to subscrib
 
 #
 ⚠️Disclaimer:
- - 1、Purpose & Copyright: This project is designed and developed solely for learning, research, and security testing purposes. Please delete all files within 24 hours of downloading. It may not be used for any commercial purposes. All text, data, and images are copyrighted; any reproduction must clearly credit the original source.
- - 2、Legal Compliance: Users of this program must strictly comply with the laws and regulations of the region where the server is deployed, as well as the laws of the hosting country and the user's own country. Any consequences resulting from the use of this project by any individual or group shall be borne entirely by the user.
- - 3、Limitation of Liability: The author shall not be held responsible for any direct or indirect damages arising from the use of this project. The author reserves the right to update this disclaimer at any time without prior notice.
+ - 1. Purpose & Copyright: This project is designed and developed solely for learning, research, and security testing purposes. Please delete all files within 24 hours of downloading. It may not be used for any commercial purposes. All text, data, and images are copyrighted; any reproduction must clearly credit the original source.
+ - 2. Legal Compliance: Users of this program must strictly comply with the laws and regulations of the region where the server is deployed, as well as the laws of the hosting country and the user's own country. Any consequences resulting from the use of this project by any individual or group shall be borne entirely by the user.
+ - 3. Limitation of Liability: The author shall not be held responsible for any direct or indirect damages arising from the use of this project. The author reserves the right to update this disclaimer at any time without prior notice.
 
 
 ## ⭐ Don't forget to Star!
