@@ -1,7 +1,7 @@
 ### 🚀[am-cf-tunnel](https://github.com/amclubs/am-cf-tunnel)
 This is a script based on the Cloudflare Workers and Pages platforms. It is a modified version of the original, specifically enhanced to display and convert VLESS and Trojan configuration information into subscription content.
 
-With this script, you can easily use online configuration converters to subscribe to VLESS and Trojan nodes within tools like Clash, Sing-box, and Quantumult X. By leveraging Cloudflare Workers and Pages, this script enables one-click node subscriptions via a built-in sub-converter.。[最新视频教程](https://youtu.be/e1Lvo5F37vk)、[🎬 YouTube](https://youtube.com/@am_clubs?sub_confirmation=1)、 [💬 Telegram](https://t.me/am_clubs)、[📂 GitHub](https://github.com/amclubs)、[🌐 Blog](https://amclubss.com)
+With this script, you can easily use online configuration converters to subscribe to VLESS and Trojan nodes within tools like Clash, Sing-box, and Quantumult X. By leveraging Cloudflare Workers and Pages, this script enables one-click node subscriptions via a built-in sub-converter.[最新视频教程](https://youtu.be/e1Lvo5F37vk)、[🎬 YouTube](https://youtube.com/@am_clubs?sub_confirmation=1)、 [💬 Telegram](https://t.me/am_clubs)、[📂 GitHub](https://github.com/amclubs)、[🌐 Blog](https://amclubss.com)
 
 ### Recommended Video Tutorials
 - [Error1101和522解决教程](https://youtu.be/4fcyJjstFdg) | [优选IP和反代IP教程](https://youtu.be/pKrlfRRB0gU) | [常见-1问题教程](https://youtu.be/kYQxV1G-ePw) | [免费域名教程](https://www.youtube.com/playlist?list=PLGVQi7TjHKXZGODTvB8DEervrmHANQ1AR) | [NAT64版教程](https://youtu.be/nx80sGpVoBM)
@@ -124,9 +124,9 @@ With this script, you can easily use online configuration converters to subscrib
 | D_URL | https://cloudflare-dns.com/dns-query |❌| DNS解析获取作用，小白勿用                                                           |  |
 
 ## 
-## ⚙️ Snippets 部署方法 [视频教程](https://www.youtube.com/watch?v=i-XnnP-MptY&t=165s)
+## ⚙️ Snippets Deployment Guide [Video Tutorial](https://www.youtube.com/watch?v=i-XnnP-MptY&t=165s)
 <details>
-<summary>点击展开/收起</summary>
+<summary>Click to Expand / Collapse</summary>
 
 1. 进入 Cloudflare Snippets：
    - 在 CloudFlare主页的左边菜单的 `域` 选项卡 -> 点击 `域` 菜单 -> 进入到 `域管理` -> 找到已开通**Snippets**的域名点击进入 -> 进入后在左边菜单的 `规则` 选项卡 点击展开 -> 点击 `Snippets` 菜单 -> 进入 `Snippets`片段代码主页面。
@@ -270,39 +270,35 @@ With this script, you can easily use online configuration converters to subscrib
 | CF_EMAIL         | xxx@gmail.com(Vercel方式部署才需求)  |❌ | 优先IP时需要CF的帐号邮箱        ||
 | CF_API_KEY       | 49ba2xxxx(Vercel方式部署才需求)      |❌ | 优先IP时需要CF的API令牌（管理帐户->帐户API令牌->创建的令牌D）          ||
 
-- 本频道订阅器转换地址：https://sub.amclubss.com
+- Channel Subscription Converter URL：https://sub.amclubss.com
   
 </details>
 
 ## 
 ## 🛠已适配订阅工具 [点击进入视频教程](https://youtu.be/xGOL57cmvaw) [点进进入karing视频教程](https://youtu.be/M3vLLBWfuFg)
 <details>
-<summary>点击展开/收起</summary>
+<summary>Click to Expand / Collapse</summary>
 
-- Mac（苹果电脑）
+- Mac
    - [v2rayU](https://github.com/yanue/V2rayU/releases) | [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) | [Quantumult X](https://apps.apple.com/us/app/quantumult-x/id1443988620) |  [小火箭](https://apps.apple.com/us/app/shadowrocket/id932747118) | [surge](https://apps.apple.com/us/app/surge-5/id1442620678) | [karing](https://karing.app/download) | [sing-box](https://github.com/SagerNet/sing-box/releases)  | [Clash Nyanpasu](https://github.com/keiko233/clash-nyanpasu/releases) | [openclash](https://github.com/vernesong/OpenClash/releases) | [Hiddify](https://github.com/hiddify/hiddify-next/releases)
 
-- Win（win系统电脑）
+- Win
    - [v2rayN](https://github.com/2dust/v2rayN/releases) |  [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) | [sing-box](https://github.com/SagerNet/sing-box/releases) |  [Clash Nyanpasu](https://github.com/keiko233/clash-nyanpasu/releases) | [openclash](https://github.com/vernesong/OpenClash/releases)  | [karing](https://karing.app/download) |  [Hiddify](https://github.com/hiddify/hiddify-next/releases)
      
-- IOS（苹果手机）
+- IOS
    - [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) |  [Quantumult X](https://apps.apple.com/us/app/quantumult-x/id1443988620)  |  [小火箭](https://apps.apple.com/us/app/shadowrocket/id932747118)  |  [surge](https://apps.apple.com/us/app/surge-5/id1442620678) |  [sing-box](https://github.com/SagerNet/sing-box/releases) | [Clash Nyanpasu](https://github.com/keiko233/clash-nyanpasu/releases) | [karing](https://karing.app/download) | [Hiddify](https://github.com/hiddify/hiddify-next/releases)
      
-- Android（安卓手机）
+- Android
    - [v2rayNG](https://github.com/2dust/v2rayNG/releases) |  [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) | [sing-box](https://github.com/SagerNet/sing-box/releases) |  [Clash Nyanpasu](https://github.com/keiko233/clash-nyanpasu/releases) |  [karing](https://karing.app/download) | [Hiddify](https://github.com/hiddify/hiddify-next/releases)
 
-- 软路由
+- Software Router
    - [openclash(clash.meta)](https://github.com/vernesong/OpenClash/releases) 
   
 </details>
 
 ##
-### 🙏感谢
+### 🙏Thank you
 [3Kmfi6HP](https://github.com/3Kmfi6HP/EDtunnel)、[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash/config)
-
-###  🌟推荐
-**【流量光】** 中转+专线高速机场 (**9.9元300G每月**) (**75元包年每月300G**) (**55元1000GB不限时**)✅畅爽晚高峰 解锁ChatGPT、全流媒体(送小火箭)
-</br>🌐官网：[https://llgjc.org](https://llgjc.org/#/register?code=bIUDEPTu)
 
 # 
 <center>
@@ -320,10 +316,10 @@ With this script, you can easily use online configuration converters to subscrib
 </center>
 
 # 
- ⚠️免责声明:
- - 1、该项目设计和开发仅供学习、研究和安全测试目的。请于下载后 24 小时内删除, 不得用作任何商业用途, 文字、数据及图片均有所属版权, 如转载须注明来源。
- - 2、使用本程序必循遵守部署服务器所在地区的法律、所在国家和用户所在国家的法律法规。对任何人或团体使用该项目时产生的任何后果由使用者承担。
- - 3、作者不对使用该项目可能引起的任何直接或间接损害负责。作者保留随时更新免责声明的权利，且不另行通知。
+ ⚠️Disclaimer:
+ - 1. Purpose & Copyright: This project is designed and developed solely for learning, research, and security testing purposes. Please delete all files within 24 hours of downloading. It may not be used for any commercial purposes. All text, data, and images are copyrighted; any reproduction must clearly credit the original source.
+ - 2. Legal Compliance: Users of this program must strictly comply with the laws and regulations of the region where the server is deployed, as well as the laws of the hosting country and the user's own country. Any consequences resulting from the use of this project by any individual or group shall be borne entirely by the user.
+ - 3. Limitation of Liability: The author shall not be held responsible for any direct or indirect damages arising from the use of this project. The author reserves the right to update this disclaimer at any time without prior notice.
 
-## ⭐ Star 星星走起
+##⭐ Don't forget to Star!
 [![Stargazers over time](https://starchart.cc/amclubs/am-cf-tunnel.svg?variant=adaptive)](https://starchart.cc/amclubs/am-cf-tunnel)
